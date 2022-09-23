@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+
+    <script>
+        console.log('list of Fruits \nApple \nOrange \nBanana');
+        // Expression
+        var p = 1000;
+        var n = 1;
+        var r = 7;
+
+        var SI = `Simple interest is ${(p*n*r)/100}`;
+
+        console.log("simple interest is" + SI);
+
+        // Taggedliteral 
+        function C(strings) {
+            document.write(strings);
+        }
+
+        C('Hii Javascript');
+
+        //String.row
+        var s = `value of expression is ${2+3}`;
+        document.write("<br>" + s);
+
+        //nested templaet
+        function maximum(x, y, z) {
+            var d = `value ${(y>x && y>z) ? 'y is greater': `${x>z? 'x is greater': 'z is greater'}`}`;
+                return (d);
+            }
+
+            document.write("<br>" + maximum(2, 5, 10));
+            document.write("<br>" + maximum(12, 10, 8));
+            document.write("<br>" + maximum(11, 21, 1));
+    </script>
+
+</body>
+
+</html>
