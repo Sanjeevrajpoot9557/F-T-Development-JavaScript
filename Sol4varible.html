@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Var Declaration</title>
+</head>
+
+<body>
+    <h2>Redeclaring a Variable Using var</h2>
+    <p id="demo"></p>
+    <script>
+        let x = 'Hello';
+        // Here x is Hello
+
+        {
+
+            let x = 'Hello JS';
+            // Here x is Hello js
+        }
+        //here x is hello       
+        document.getElementById("demo").innerHTML = x;
+    </script>
+</body>
+
+</html>
+
+<br>
+<h1><u> below the given secound chelleng</u></h1>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>secound chellenge</title>
+</head>
+
+<body>
+    <h1>Javascript const</h1>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+
+    <script>
+        //create an array:
+        const mobile = ["iphone", "redmi", "oppo reno2f"];
+        //dispaly the array:
+        document.getElementById("demo").innerHTML = mobile;
+        //change an elemnet:
+        mobile[2] = ("oneplus");
+        //add an element:
+        mobile.push("vivo30plus");
+        //dispaly the array:
+        document.getElementById("demo1").innerHTML = mobile;
+    </script>
+</body>
+
+</html>
