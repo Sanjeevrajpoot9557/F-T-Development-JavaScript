@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js loops</title>
+</head>
+
+<body style="background-color: rgb(154, 154, 50);">
+    <h1>java script loop</h1>
+    <script>
+        function pattern(p) {
+            for (var i = 1; i <= p; i++) {
+                var text = " ";
+                for (var j = 1; j <= i; j++) {
+                    text += j + " ";
+                }
+                document.write(text);
+                document.write('<br>');
+
+            }
+
+        }
+        pattern(8);
+    </script>
+
+</body>
+
+</html>
